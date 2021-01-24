@@ -1,0 +1,22 @@
+int main(void)
+{
+	int i;
+	int j;
+	int k;
+	int m;
+	i=1;
+	j=2;
+	k=3;
+	if(i>=j)
+	
+		if(i>=k) m=i;
+		else m=k;
+	
+	else
+	
+		if(j>=k) m=j;
+		else m=k;
+	
+
+	return m;
+}

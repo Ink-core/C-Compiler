@@ -1,0 +1,23 @@
+int foo(int a,int b,int c)
+{
+	int d;
+	d=100;
+	while(a<d)
+	{	
+		if(a>50) a=a+2;
+		else a=a+1;
+	}
+	return b+c+d+a;
+}
+int main(void)
+{
+	int i;
+	int j;
+	int k;
+	int m;
+	i=0;
+	j=1;
+	k=2;
+	m=foo(i,j,k);
+	return m;
+}

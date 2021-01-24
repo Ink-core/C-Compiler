@@ -1,0 +1,26 @@
+int min(int a,int b)
+{	
+	if(a<b) return a;
+	else return b;
+}
+int max(int a,int b)
+{	
+	int c;
+	if(a>b) c=b;
+	else c=a;
+	return c;
+}
+int main(void)
+{
+	int i;
+	int j;
+	int k;	
+	int m;
+	i=1;
+	j=2;
+	k=min(i,j);
+	m=max(i,j);
+	output(k);
+	output(m);
+	return k+m;
+}

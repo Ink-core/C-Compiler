@@ -1,0 +1,21 @@
+int foo(int a,int b,int c)
+{
+	int d;
+	d=5;
+	while(a<d)
+	{
+		a=a+1;
+	}
+	return b+c+d+a;
+}
+int main(void)
+{
+	int i;
+	int j;
+	int k;
+	int m;
+	i=1;
+	j=2;
+	m=foo(i,j,k);
+	return m;
+}
